@@ -79,8 +79,10 @@ def mars_hemispheres():
     return hemisphere_image_urls
 
 def scrape():
+    NASA_mars_news_titles, NASA_mars_news_p=NASA_mars_news()
     scraped_dictionary={
-    "NASA_mars_news":NASA_mars_news(),
+    "NASA_mars_news_titles": NASA_mars_news_titles,
+    "NASA_mars_news_p": NASA_mars_news_p,
     "JPL_mars_featured_image":JPL_mars_featured_image(),
     "mars_weather":mars_weather(),
     "mars_facts":mars_facts(),
