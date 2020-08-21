@@ -26,8 +26,11 @@ def scrape_insert():
 # Set route
 @app.route('/')
 def index():
-    listings = mongo.db.listings.find_one()
-    return render_template("index.html", listings=listings)
+    mars = mongo.db.mars.find_one()
+    return render_template("index.html", mars=mars)
+
+
+
 
 
 
