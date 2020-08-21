@@ -88,3 +88,5 @@ def scrape():
     }
     return scraped_dictionary
 
+print(scrape())
+
