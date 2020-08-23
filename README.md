@@ -96,8 +96,8 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 ## Step 3 - Submission Screen shots:
 
 ![screenShot1.png](Missions_to_Mars/Images/screenShot1.png)
-![screenShot2.png](Missions_to_Mars/mages/screenShot2.png)
-![screenShot3.png](Missions_to_Mars/mages/screenShot3.png)
+![screenShot2.png](Missions_to_Mars/Images/screenShot2.png)
+![screenShot3.png](Missions_to_Mars/Images/screenShot3.png)
 
 
 * Use Bootstrap to structure your HTML template.
