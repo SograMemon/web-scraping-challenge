@@ -12,6 +12,7 @@ def NASA_mars_news():
         executable_path = {'executable_path': '/usr/local/bin/chromedriver'}
         browser = Browser('chrome', **executable_path, headless=False)
         browser.visit(url)
+        time.sleep(4)
         html = browser.html
         soup = bs(html, 'html.parser')
         results = soup.find_all('div', class_='list_text')
